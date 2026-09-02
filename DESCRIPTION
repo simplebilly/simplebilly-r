@@ -1,0 +1,15 @@
+Package: openapi
+Title: R Package Client for SimpleBilly API
+Version: 1.0.0
+Author: person("Endless Deals Germany GmbH", email = "support@simplebilly.com", role = c("aut", "cre"))
+Maintainer: Endless Deals Germany GmbH <support@simplebilly.com>
+Description: Simplebilly API - Bookkeeping, CRM, ERP. Multi-tenant API: a tenant is isolated and routed by subdomain (or a configured custom domain) under the base domain.  ## Rate limiting All endpoints are rate-limited per client IP: **100 requests per minute** on API routes and **5 requests per minute** on authentication routes. Exceeding a limit returns `429 Too Many Requests`; the window resets after 60 seconds.
+URL: https://github.com/GIT_USER_ID/GIT_REPO_ID
+BugReports: https://github.com/GIT_USER_ID/GIT_REPO_ID/issues
+Depends: R (>= 3.3)
+Encoding: UTF-8
+License: Apache License 2.0
+LazyData: true
+Suggests: testthat
+Imports: jsonlite, httr, R6, base64enc, stringr
+RoxygenNote: 7.2.1
